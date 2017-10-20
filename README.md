@@ -1,2 +1,3 @@
 # DisjunctiveNormalForm
-Testing out DNF
+
+Try to prove equivalence transformation.
