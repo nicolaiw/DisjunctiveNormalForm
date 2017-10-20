@@ -1,0 +1,2 @@
+# DisjunctiveNormalForm
+Testing out DNF
