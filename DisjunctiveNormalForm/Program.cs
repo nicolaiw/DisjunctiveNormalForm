@@ -43,7 +43,7 @@ namespace DisjunctiveNormalForm
         // "before" refers to BEFOR equivalence transformation
         public static bool Dnf_before(bool a, bool b, bool c)
         {
-            // Parantheses just for readebility
+            // Parantheses just for readability
 
             //      -a-b-c          +   a-b-c          +   a-bc          +   ab-c          +   abc          
             return (!a && !b && !c) || (a && !b && !c) || (a && !b && c) || (a && b && !c) || (a && b && c);
