@@ -1,3 +1,3 @@
-# DisjunctiveNormalForm
+# Disjunctive normal form (DNF)
 
-Try to prove equivalence transformation.
+Comparing logical formulas before and after equivalence transformation.
