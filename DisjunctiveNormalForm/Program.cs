@@ -45,16 +45,16 @@ namespace DisjunctiveNormalForm
         {
             // Parantheses just for readebility
 
-            //      -a-b-c        +   a-b-c        +   a-bc        +   ab-c        +   abc          
-            return (!a & !b & !c) || (a & !b & !c) || (a & !b & c) || (a & b & !c) || (a & b & c);
+            //      -a-b-c          +   a-b-c          +   a-bc          +   ab-c          +   abc          
+            return (!a && !b && !c) || (a && !b && !c) || (a && !b && c) || (a && b && !c) || (a && b && c);
         }
 
 
         // "after" refers to AFTER equivalence transformation
         public static bool Dnf_after(bool a, bool b, bool c)
         {
-            //      -a-b-c        + a
-            return (!a & !b & !c) || a;
+            //      -a-b-c          + a
+            return (!a && !b && !c) || a;
         }
     }
 
